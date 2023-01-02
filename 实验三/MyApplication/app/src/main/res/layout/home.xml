@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+
+                android:paddingRight="15dp"
+                android:text="广东财经大学（Guangdong University of Finance  Economics）坐落于广州，入选卓越法律人才教育培养计划、教育部“1+2+1中美人才培养计划”、国家级大学生创新创业训练计划、国家大学生文化素质教育基地、教育部“中美青年创客交流中心”单位、教育部首批研究生课程建设试点单位，是教育部新商科智慧学习工场（2020）（A）项目试点院校（2021年）、广东省“冲一流、补短板、强特色”特色高校提升计划建设学校，为“一带一路”高校联盟、中国-俄罗斯经济类大学联盟、全国财经院校“一带一路”教育国际化产学研合作联盟等成员单位。 [17]
+学校始建于1983年，原名广东财经学院，起始办学层次为本科教育；1985年更名为广东商学院，2003年获得硕士学位授予权，2007年以“优秀”等级通过本科教学工作水平评估；2013年更名为广东财经大学，2021年获批为博士学位授予单位。
+截至2022年7月，学校有广州和佛山两个校区，占地面积2275亩；设22个二级学院，开办66个本科专业；有1个博士学位授权一级学科点，9个硕士学位授权一级学科点，1个硕士学位授权二级学科点，17个硕士专业学位授权点；有专任教师1600余人，全日制本科生、研究生31000多人。"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
